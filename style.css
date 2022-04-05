@@ -1,0 +1,107 @@
+@charset "utf-8";
+*{
+    margin: 0px;
+}
+body{
+    margin: 0%;
+    padding: 0%;
+}
+
+header{
+    width: 98,5%;
+    height: 250px;
+    background-color: rgb(0, 0, 0);
+    margin: 0%;
+
+    padding: 10px;
+}
+header > h1{
+    text-align: center;
+    color: rgba(255, 255, 255, 0.966);
+    font-family: 'Passion One', cursive;
+    font-size: 70px;
+    margin: 19px;
+}
+header > h2{
+    text-align: center;
+    font-family: 'Passion One', cursive;
+    color: rgba(255, 255, 255, 0.671);
+
+}
+a{
+    color: rgba(255, 255, 255, 0.925);
+    text-decoration: none;
+}
+article > p{
+    width: 200px;
+    text-align: left;
+    padding: 40px;
+    
+    font-size: 30px;
+    font-family: 'Sriracha', cursive;
+}
+article#flor{
+    background-image: url(imagens/background001.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    max-width: 98,5%;
+    display: flex;
+}
+article#flor > p{
+    font-size: 28px;
+    color: white;
+    text-align: justify;
+
+    border: 10px rgba(0, 0, 0, 0.596);
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.466);
+    width: 300px;
+    padding: 40px 10px 10px 12px;
+    margin: 50px;
+    height: 500px;
+}
+article#livros{
+    background-image: url(imagens/background002.jpg);
+    background-repeat: no-repeat;
+    max-width: 98,5%;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    min-height: 600px;
+    max-height: 600px;
+    display: flex;
+
+}
+article#livros > p{
+    font-size: 23px;
+    color: rgb(255, 255, 255);
+
+    width: 300px;
+
+    margin: left;
+    border: 10px rgba(0, 0, 0, 0.596);
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.466);
+    width: 300px;
+    padding: 40px 5px 10px 12px;
+    margin: 50px;
+    height: 300px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+
+}
+footer{
+    background-color: black;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    margin: 0px;
+    width: 98,5%;
+    height: 30px;
+    padding: 0px;
+    margin-top: 0px;
+}
