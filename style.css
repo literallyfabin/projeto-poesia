@@ -48,6 +48,7 @@ article#flor{
     background-position: center center;
     max-width: 98,5%;
     display: flex;
+    box-shadow: 10px 3px 21px 5px;
 }
 article#flor > p{
     font-size: 28px;
@@ -58,9 +59,9 @@ article#flor > p{
     border-radius: 10px;
     background-color: rgba(0, 0, 0, 0.466);
     width: 300px;
-    padding: 40px 10px 10px 12px;
-    margin: 50px;
-    height: 500px;
+    padding: 29px 10px 10px 12px;
+    margin: 30px 38px 31px 51px;
+    height: 453px;
 }
 article#livros{
     background-image: url(imagens/background002.jpg);
@@ -72,10 +73,11 @@ article#livros{
     min-height: 600px;
     max-height: 600px;
     display: flex;
+    box-shadow: 10px 3px 21px 5px;
 
 }
 article#livros > p{
-    font-size: 23px;
+    font-size: 29px;
     color: rgb(255, 255, 255);
 
     width: 300px;
@@ -85,10 +87,10 @@ article#livros > p{
     border-radius: 10px;
     background-color: rgba(0, 0, 0, 0.466);
     width: 300px;
-    padding: 40px 5px 10px 12px;
+    padding: 10px 10px 10px 10px;
     margin: 50px;
-    height: 300px;
-    margin-top: 10px;
+    height: 442px;
+    margin-top: 25px;
     margin-bottom: 0px;
 
 }
