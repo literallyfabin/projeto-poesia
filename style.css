@@ -39,6 +39,8 @@ article > p{
     
     font-size: 30px;
     font-family: 'Sriracha', cursive;
+
+    margin-left: 25px;
 }
 article#flor{
     background-image: url(imagens/background001.jpg);
