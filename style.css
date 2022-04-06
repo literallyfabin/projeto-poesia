@@ -35,7 +35,7 @@ a{
     text-decoration: none;
 }
 article > p{
-    width: 386px;
+    min-width: 300px;
     text-align: left;
     padding: 40px;
     
@@ -65,7 +65,7 @@ article#flor > p{
     padding: 29px 10px 10px 12px;
     margin: 30px 38px 31px 51px;
     display: inline-block;
-    width: 400px
+    min-width: 300px
 }
 article#livros{
     background-image: url(imagens/background002.jpg);
@@ -95,7 +95,7 @@ article#livros > p{
     margin-top: 25px;
     margin-bottom: 100px;
     display: inline-block;
-    width: 350px;
+    min-width: 300px;
     height: 380px;
 
 
