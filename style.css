@@ -35,7 +35,7 @@ a{
     text-decoration: none;
 }
 article > p{
-    width: 350px;
+    min-width: 320px;
     text-align: left;
     padding: 40px;
     
